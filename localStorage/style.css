@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+}
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+li {
+    margin: 0.5rem 0;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
