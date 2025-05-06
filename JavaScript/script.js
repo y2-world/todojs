@@ -1,9 +1,6 @@
 const form = document.getElementById('todo-form'); // form要素を取得
-// console.log(form);
 const input = document.getElementById('todo-input'); // input要素を取得
-// console.log(input);
 const todoList = document.getElementById('todo-list'); // ul要素を取得
-// console.log(todoList);
 
 form.addEventListener('submit', function(e) {
     e.preventDefault(); //送信をクリックしてもページ遷移しないようにする
